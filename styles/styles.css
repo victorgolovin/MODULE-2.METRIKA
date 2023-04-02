@@ -139,6 +139,7 @@ body {
 .about-us-btn:hover {
     color: #AD1818;
     background-color: #fff;
+    transition: 0.3s;
 }
 
 /* project section */
@@ -210,13 +211,12 @@ body {
 
 /* services section */
 
-.conteiner-services {
+.services {
     background-color: #121212;
 }
 
 .services-title {
     padding-top: 151px;
-    padding-left: 127px;
     margin-bottom: 30px;
     color: #fff;
     text-transform: uppercase;
@@ -226,27 +226,32 @@ body {
 }
 
 .services-content {
-    width: 1155px;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
-}   
-
-.serivces-img-solution {
-    margin: 0 11px 25px 0;
+    justify-content: space-between;
+    margin-bottom: 106px;
 }
 
-.serivces-img-design {
-    margin-bottom: 25px;
+.services-content>li {
+    width: calc(50% - 5px);
 }
 
-.serivces-img-watch {
-    margin: 0 11px 17px 0;
+.serivces-solution,
+.serivces-design {
+    margin-bottom: 40px;
 }
 
-.serivces-img-equipment {
-    margin-bottom: 17px;
+.services-text-solution,
+.services-text-design {
+    margin-top: 25px;
 }
+
+.services-text-watch,
+.services-text-equipment {
+    margin-top: 17px;
+}
+
+
 
 .services-text-solution,
 .services-text-design,
@@ -257,15 +262,6 @@ body {
     line-height: 41px;
     padding-left: 5px;
     letter-spacing: -0.03em;
-}
-
-.services-text-solution {
-    margin-bottom: 85px;
-}
-
-.services-text-watch,
-.services-text-equipment {
-    margin-bottom: 106px;
 }
 
 .services-big-btn {
@@ -292,6 +288,28 @@ body {
     background-color: #fff;
     color: #AD1818;
     transition: 0.5s;
+}
+
+/* services-bottom-img section */
+
+.full-img {
+    position: relative;
+    height: 717px;
+    background-image: url(../images/full-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-bottom: 186px;
+}
+    
+.full-img-text {
+    position: absolute;
+    left: 125px;
+    bottom: 60px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
 }
 
 /* reviews section */
@@ -334,28 +352,6 @@ body {
     font-size: 22px;
     line-height: 30.05px;
     margin-bottom: 20px;
-}
-
-/* services-bottom-img section */
-
-.full-img {
-    position: relative;
-    height: 717px;
-    background-image: url(../images/full-img.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    margin-bottom: 186px;
-}
-    
-.full-img-text {
-    position: absolute;
-    left: 125px;
-    bottom: 60px;
-    color: #fff;
-    font-size: 30px;
-    line-height: 41px;
-    letter-spacing: -0.03em;
 }
 
 /* contact section */
