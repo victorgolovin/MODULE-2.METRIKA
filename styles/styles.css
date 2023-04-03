@@ -359,11 +359,11 @@ body {
 .container-reviews {
     width: 1400px;
     margin: 0 auto;
+    margin-bottom: 137px;
 }
 
 .reviews-title {
     margin-top: 150px;
-    padding-left: 127px;
     margin-bottom: 30px;
     text-transform: uppercase;
     font-size: 18px;
@@ -377,11 +377,16 @@ body {
 }
 
 .reviews-list>li:nth-child(1) {
-    margin: 0 51px 50px 124px;
+    width: 528px;
+    margin: 0 51px 30px 0;
+}
+
+.reviews-list>li:nth-child(2) {
+    width: 505px;
 }
 
 .reviews-list>li:nth-child(3) {
-    margin: 0 0 157px 124px;
+    width: 861px;
 }
 
 .reviews-list-title {
@@ -525,6 +530,14 @@ body {
     letter-spacing: -0.03em;
 }
 
+@media (max-width: 1460px) {
+    .container-reviews {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 17px;
+    }
+}
+
 @media (max-width: 1199px) {
 
     .container {
@@ -637,6 +650,37 @@ body {
 
     .services-btn {
         width: 100%;
+    }
+
+    /* reviews */
+
+    .container-reviews {
+        margin-bottom: 100px;
+    }
+
+    .reviews-list>li:nth-child(1) {
+        width: 459px;
+        margin: 0 10px 60px 0;
+    }
+    
+    .reviews-list>li:nth-child(2) {
+        width: 375px;
+    }
+    
+    .reviews-list>li:nth-child(3) {
+        width: 694px;
+    }
+
+    .reviews-list-title {
+        font-size: 35px;
+        line-height: 48px;
+        margin: 0 0 25px 0; 
+    }
+
+    .reviews-list-text {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 20px;
     }
 }
 
@@ -792,5 +836,51 @@ body {
         height: 100px;
         font-size: 22px;
         line-height: 30px;
+    }
+
+    /* reviews */
+
+    .container-reviews {
+        padding-right: 13px;
+        padding-left: 13px;
+        margin-bottom: 60px;
+    }
+
+    .reviews-title {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 22px;
+    }
+
+    .reviews-list {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .reviews-list>li:nth-child(1) {
+        width: 100%;
+        margin: 0 0px 60px 0;
+    }
+    
+    .reviews-list>li:nth-child(2) {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    
+    .reviews-list>li:nth-child(3) {
+        width: 100%;
+    }
+
+    .reviews-list-title {
+        font-size: 25px;
+        line-height: 34px;
+        margin: 0 0 10px 0; 
+    }
+
+    .reviews-list-text {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 20px;
     }
 }
