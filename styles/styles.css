@@ -8,7 +8,7 @@ body {
     font-weight: 400;
     letter-spacing: -0.03em;
 }
-    
+
 .container {
     width: 1150px;
     margin: 0 auto;
@@ -23,7 +23,7 @@ body {
 
 .metrik-logo {
     width: 127px;
-    margin:  32px 0px 70px 0px;
+    margin: 32px 0px 70px 0px;
 }
 
 .metrik-nav-link {
@@ -33,7 +33,7 @@ body {
     text-align: right;
 }
 
- 
+
 .nav-text-us,
 .nav-text-project,
 .nav-text-services {
@@ -45,7 +45,7 @@ body {
     letter-spacing: -0.4px;
 }
 
-.nav-text-contact{
+.nav-text-contact {
     text-decoration: none;
     color: #121212;
     font-weight: 400;
@@ -68,12 +68,12 @@ body {
 
 /* top-info*/
 
-.top-info-title{
+.top-info-title {
     font-size: 60px;
     line-height: 60px;
     margin-bottom: 30px;
     letter-spacing: -0.03em;
-}   
+}
 
 .top-info-img {
     display: block;
@@ -84,7 +84,7 @@ body {
     background-position: center;
     width: 100%;
     height: 500px;
-    margin-bottom: 150px;   
+    margin-bottom: 150px;
 }
 
 .top-info-img-text {
@@ -96,7 +96,7 @@ body {
     font-size: 20px;
     line-height: 27.32px;
     letter-spacing: -0.03em;
-    color: #fff; 
+    color: #fff;
 }
 
 /* about-us section */
@@ -111,7 +111,7 @@ body {
     font-size: 18px;
     line-height: 24.59px;
     margin-bottom: 32px;
-}   
+}
 
 .about-us-text {
     width: 1048px;
@@ -133,7 +133,7 @@ body {
     color: #fff;
     font-size: 20px;
     line-height: 27px;
-    letter-spacing: -0.5px; 
+    letter-spacing: -0.5px;
 }
 
 .about-us-btn:hover {
@@ -170,7 +170,7 @@ body {
     letter-spacing: -0.03em;
 }
 
-.project-big-btn{
+.project-big-btn {
     margin-bottom: 150px;
 }
 
@@ -343,7 +343,7 @@ body {
     background-position: 50% 50%;
     margin-bottom: 186px;
 }
-    
+
 .full-img-text {
     position: absolute;
     left: 125px;
@@ -374,19 +374,16 @@ body {
 .reviews-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.reviews-list>li:nth-child(1) {
-    width: 528px;
-    margin: 0 51px 30px 0;
-}
-
+.reviews-list>li:nth-child(1),
 .reviews-list>li:nth-child(2) {
-    width: 505px;
+    width: calc(50% - 25px);
 }
 
 .reviews-list>li:nth-child(3) {
-    width: 861px;
+    width: 75%;
 }
 
 .reviews-list-title {
@@ -451,7 +448,7 @@ body {
 .mail {
     margin-bottom: 160px;
 }
-     
+
 .contact-mail {
     font-size: 60px;
     line-height: 60px;
@@ -462,9 +459,9 @@ body {
 
 /* Footer */
 
-.container-footer  {
+.container-footer {
     background-color: #121212;
-}    
+}
 
 .footer-info {
     display: flex;
@@ -608,7 +605,7 @@ body {
 
     /* services */
 
-    .services-content{
+    .services-content {
         margin-bottom: 80px;
     }
 
@@ -659,27 +656,67 @@ body {
     }
 
     .reviews-list>li:nth-child(1) {
-        width: 459px;
         margin: 0 10px 60px 0;
-    }
-    
-    .reviews-list>li:nth-child(2) {
-        width: 375px;
-    }
-    
-    .reviews-list>li:nth-child(3) {
-        width: 694px;
     }
 
     .reviews-list-title {
         font-size: 35px;
         line-height: 48px;
-        margin: 0 0 25px 0; 
+        margin: 0 0 25px 0;
     }
 
     .reviews-list-text {
         font-size: 20px;
         line-height: 28px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 860px) {
+
+    /* reviews */
+
+    .container-reviews {
+        padding-right: 13px;
+        padding-left: 13px;
+        margin-bottom: 60px;
+    }
+
+    .reviews-title {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 22px;
+    }
+
+    .reviews-list {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .reviews-list>li:nth-child(1) {
+        width: 100%;
+        margin: 0 0px 60px 0;
+    }
+
+    .reviews-list>li:nth-child(2) {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .reviews-list>li:nth-child(3) {
+        width: 100%;
+    }
+
+    .reviews-list-title {
+        font-size: 25px;
+        line-height: 34px;
+        margin: 0 0 10px 0;
+    }
+
+    .reviews-list-text {
+        font-size: 16px;
+        line-height: 22px;
         margin-bottom: 20px;
     }
 }
@@ -836,51 +873,5 @@ body {
         height: 100px;
         font-size: 22px;
         line-height: 30px;
-    }
-
-    /* reviews */
-
-    .container-reviews {
-        padding-right: 13px;
-        padding-left: 13px;
-        margin-bottom: 60px;
-    }
-
-    .reviews-title {
-        font-size: 14px;
-        line-height: 19px;
-        margin-bottom: 22px;
-    }
-
-    .reviews-list {
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-    }
-
-    .reviews-list>li:nth-child(1) {
-        width: 100%;
-        margin: 0 0px 60px 0;
-    }
-    
-    .reviews-list>li:nth-child(2) {
-        width: 100%;
-        margin-bottom: 60px;
-    }
-    
-    .reviews-list>li:nth-child(3) {
-        width: 100%;
-    }
-
-    .reviews-list-title {
-        font-size: 25px;
-        line-height: 34px;
-        margin: 0 0 10px 0; 
-    }
-
-    .reviews-list-text {
-        font-size: 16px;
-        line-height: 22px;
-        margin-bottom: 20px;
     }
 }
