@@ -356,9 +356,7 @@ body {
 
 /* reviews section */
 
-.container-reviews {
-    width: 1400px;
-    margin: 0 auto;
+.reviews {
     margin-bottom: 137px;
 }
 
