@@ -332,28 +332,6 @@ body {
     transition: 0.5s;
 }
 
-/* services-bottom-img section */
-
-.full-img {
-    position: relative;
-    height: 717px;
-    background-image: url(../images/full-img.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    margin-bottom: 186px;
-}
-
-.full-img-text {
-    position: absolute;
-    left: 125px;
-    bottom: 60px;
-    color: #fff;
-    font-size: 30px;
-    line-height: 41px;
-    letter-spacing: -0.03em;
-}
-
 /* reviews section */
 
 .reviews {
@@ -396,6 +374,52 @@ body {
     line-height: 30.05px;
     margin-bottom: 20px;
 }
+
+/* gallery section */
+
+.gallery {
+    position: relative;
+}
+
+.gallery-title-wrapper {
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    z-index: 100;
+}
+
+.gallery-title {
+
+}
+
+.gallery-slides {
+    position: relative;
+}
+
+.gallery-slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.gallery-slide-active {
+    opacity: 1;
+}
+
+.gallery-img {
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+.gallery-controls-wrapper {
+    position: absolute;
+    width: 100%;
+    bottom: 162px;
+}
+
 
 /* contact section */
 
