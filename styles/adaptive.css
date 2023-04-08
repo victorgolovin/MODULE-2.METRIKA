@@ -1,12 +1,3 @@
-
-@media (max-width: 1460px) {
-    .container-reviews {
-        width: 100%;
-        padding-right: 17px;
-        padding-left: 17px;
-    }
-}
-
 @media (max-width: 1199px) {
 
     .container {
@@ -123,7 +114,7 @@
 
     /* reviews */
 
-    .container-reviews {
+    .reviews {
         margin-bottom: 100px;
     }
 
@@ -145,12 +136,10 @@
 }
 
 @media (max-width: 860px) {
-    
+
     /* reviews */
 
-    .container-reviews {
-        padding-right: 13px;
-        padding-left: 13px;
+    .reviews {
         margin-bottom: 60px;
     }
 
