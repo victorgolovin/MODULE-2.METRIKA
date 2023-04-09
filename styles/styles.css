@@ -437,14 +437,19 @@ body {
     color: #fff;
 }
 
-.gallery-controls {
+.gallery-controls-wrapper {
     position: absolute;
+    width: 100%;
     bottom: 200px;
+}
+
+.gallery-controls {
+    display: flex;
+    gap: 35px;
 }
 
 .gallery-controls-prev,
 .gallery-controls-next {
-    position: absolute;
     border: none;
     background: none;
     width: 20px;
@@ -464,7 +469,7 @@ body {
 .gallery-controls-next {
     background-image: url(../files/Vector-next.png);
     transform: rotate(180deg);
-    left: 54px;
+    left: 216px;
 }
 
 /* contact section */
