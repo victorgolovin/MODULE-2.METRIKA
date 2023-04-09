@@ -376,7 +376,7 @@
     }
 
     .gallery-title-wrapper {
-        width: 128px;
+        width: 170px;
         top: 61px;
         left: 0px;
     }
@@ -387,12 +387,13 @@
     }
 
     .gallery-slide-text-wrapper {
-        width: 287px;
+        width: 100%;
         left: 0px;
         top: 575px;
     }
 
     .gallery-slide-text {
+        width: 100%;
         font-size: 19px;
         line-height: 26px;
     }
