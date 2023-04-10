@@ -166,6 +166,17 @@
         width: 100px;
         left: 51px;
     }
+
+    /* contact section */
+
+    .contact-info-wrapper {
+        margin-bottom: 80px;
+    }
+
+    .contact-number,
+    .contact-mail {
+        font-size: 45px;
+    }
 }
 
 @media (max-width: 859px) {
@@ -212,6 +223,40 @@
         font-size: 16px;
         line-height: 22px;
         margin-bottom: 20px;
+    }
+
+    /* contact section */
+
+    .contact-title {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .contact-info-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .contact-number {
+        font-size: 35px;
+        line-height: 46px;
+        margin-bottom: 58px;
+    }
+
+    .contact-number::before {
+        bottom: 70px;
+        background-image: url('../files/contact-mobile-img.png');
+    }
+
+    .contact-mail {
+        font-size: 35px;
+        line-height: 46px;
+    }
+
+    .contact-mail::before {
+        bottom: 70px;
+        background-image: url('../files/mail.mobile-img.png');
     }
 }
 

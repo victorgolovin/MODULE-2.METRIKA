@@ -474,24 +474,36 @@ body {
 
 /* contact section */
 
-.contact-img {
-    margin: 150px 1256px 12px 0px;
-}
-
-.contact-text {
+.contact-title {
     position: relative;
     display: block;
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: -0.03em;
     text-transform: uppercase;
-    margin-bottom: 32px;
+    margin-bottom: 74px;
 }
 
-.contact-text::before {
+.contact-info-wrapper {
+    display: flex;
+    gap: 104px;
+    margin-bottom: 150px;
+
+}
+
+.contact-number {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: #121212;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.8px;
+}
+
+.contact-number::before {
     content: '';
     position: absolute;
-    bottom: 38px;
+    bottom: 85px;
     display: block;
     width: 15px;
     height: 22px;
@@ -500,15 +512,25 @@ body {
     background-position: 50%;
 }
 
-.contact-number {
-    display: block;
-    text-decoration: none;
-    color: #121212;
-    width: 500px;
+.contact-mail {
+    position: relative;
     font-size: 60px;
     line-height: 60px;
-    letter-spacing: -0.8px;
-    margin: 0 803px 30px 0px;
+    letter-spacing: -0.03em;
+    color: #121212;
+    text-decoration: none;
+}
+
+.contact-mail::before {
+    content: '';
+    position: absolute;
+    bottom: 85px;
+    display: block;
+    width: 20px;
+    height: 16px;
+    background-image: url('../files/mail-img.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
 }
 
 .contact-number:hover,
@@ -517,18 +539,6 @@ body {
     text-decoration: underline solid 2px;
     text-underline-offset: 10px;
     opacity: 0.5;
-}
-
-.mail {
-    margin-bottom: 160px;
-}
-
-.contact-mail {
-    font-size: 60px;
-    line-height: 60px;
-    letter-spacing: -0.03em;
-    color: #121212;
-    text-decoration: none;
 }
 
 /* Footer */
