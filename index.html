@@ -5,13 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Metrika</title>
+    <title>Метрика</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/adaptive.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/top-info.css">
+    <link rel="stylesheet" href="styles/about-us.css">
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/services.css">
+    <link rel="stylesheet" href="styles/reviews.css">
+    <link rel="stylesheet" href="styles/gallery-section.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
 
 <body>
@@ -94,7 +103,7 @@
             <div class="container">
                 <h2 class="services-title" id="services">Услуги</h2>
                 <ul class="services-content">
-                    <li class="serivces-solution">
+                    <li class="services-solution">
                         <img src="images/services-img-1.jpg" alt="Изображение - Планировочное решение — от 2500₽/м²">
                         <div class="services-img-label">
                             <p>от 2500₽/м²</p>
@@ -189,31 +198,86 @@
             </div>
         </section>
 
-        <!-- <section class="gallery" >
-            <div class="container-full-img">
-                <div class="full-img">
-                    <p class="full-img-text">
-                        Проект двухкомнатной <br> квартиры в ЖК Лесной Пейзаж
-                    </p>
+        <section class="gallery-section">
+            <div class="gallery">
+                <div class="gallery-title-wrapper">
+                    <div class="container">
+                        <h5 class="gallery-title">
+                            Галерея проектов
+                        </h5>
+                    </div>
+                </div>
+                <div class="gallery-slides">
+                    <div class="gallery-slide gallery-slide-active">
+                        <img class="gallery-img img-forest-landscape" src="images/gallery-img-1-forest-landscape.jpg"
+                            alt="img-forest-landscape">
+                    </div>
+                    <div class="gallery-slide-text-wrapper">
+                        <div class="container">
+                            <p class="gallery-slide-text">Проект Двухкомнтаной квартиры в ЖК Лесной Пейзаж</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-slides">
+                    <div class="gallery-slide">
+                        <img class="gallery-img img-beacon" src="images/gallery-img-2-beacon.jpg" alt="img-beacon">
+                        <div class="gallery-slide-text-wrapper">
+                            <div class="container">
+                                <p class="gallery-slide-text">Проект гостиной в ЖК Маяк</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-slides">
+                    <div class="gallery-slide">
+                        <img class="gallery-img img-living-room" src="images/gallery-img-3-living-room.jpg"
+                            alt="img-living-room">
+                        <div class="gallery-slide-text-wrapper">
+                            <div class="container">
+                                <p class="gallery-slide-text">Визуализация кухни-гостиной в частном доме</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-slides">
+                    <div class="gallery-slide">
+                        <img class="gallery-img img-north-wind" src="images/gallery-img-4-north-wind.jpg"
+                            alt="img-north-wind">
+                        <div class="gallery-slide-text-wrapper">
+                            <div class="container">
+                                <p class="gallery-slide-text">Проект кухни в скандинавском стиле для ЖК Северный Ветер
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-controls-wrapper">
+                    <div class="container">
+                        <div class="gallery-controls">
+                            <button class="gallery-controls-prev"></button>
+                            <button class="gallery-controls-next"></button>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section> -->
+        </section>
 
-
-
-
-        <!-- <section class="contact">
+        <section class="contact">
             <div class="container">
-                <h2 class="contact-text" id="contact">Контакты</h2>
-                <a class="contact-number" href="tel:+79358954535">+7 935 895-45-35</a>
-                <div class="mail">
-                    <a class="contact-mail" href="mailto:hello@mail.com">hello@mail.com</a>
+                <h2 class="contact-title" id="contact">Контакты</h2>
+                <div class="contact-info-wrapper">
+                    <div class="contact-number-wrapper">
+                        <a class="contact-number" target="_blank" href="tel:+79358954535">+7 935 895-45-35</a>
+                    </div>
+                    <div class="contact-mail-wrapper">
+                        <a class="contact-mail" target="_blank" href="https://t.me/Golovin_V13">Golovin_V13</a>
+                    </div>
                 </div>
             </div>
-        </section> -->
+        </section>
     </main>
 
-    <!-- <footer>
+    <footer class="footer">
         <div class="container-footer">
             <div class="footer-info">
                 <a class="footer-us" href="#about-us">О НАС</a>
@@ -221,11 +285,13 @@
                 <a class="footer-services" href="#services">УСЛУГИ</a>
                 <a class="footer-contact" href="#contact">КОНТАКТЫ</a>
             </div>
-            <div class="copyright">
-                <p>студия дизайна интерьера Метрика — 2023</p>
+            <div class="footer-copyright">
+                <p class="footer-copyright-text">студия дизайна интерьера Метрика — 2023</p>
             </div>
         </div>
-    </footer> -->
+    </footer>
+
+    <script src="js/gallery.js"></script>
 </body>
 
 </html>

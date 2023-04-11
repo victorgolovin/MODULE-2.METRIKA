@@ -1,0 +1,49 @@
+/* Header */
+
+.nav-metrik {
+    display: flex;
+    justify-content: space-between;
+}
+
+.metrik-logo {
+    width: 127px;
+    margin: 32px 0px 70px 0px;
+}
+
+.metrik-nav-link {
+    display: flex;
+    margin: 33px 1px 70px 0px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+
+.nav-text-us,
+.nav-text-project,
+.nav-text-services {
+    margin-right: 60px;
+    text-decoration: none;
+    color: #121212;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.4px;
+}
+
+.nav-text-contact {
+    text-decoration: none;
+    color: #121212;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.6px;
+}
+
+.nav-text-us:hover,
+.nav-text-project:hover,
+.nav-text-services:hover,
+.nav-text-contact:hover {
+    color: #121212;
+    text-decoration: underline solid 1px;
+    text-underline-offset: 8px;
+    opacity: 0.5;
+}
