@@ -258,6 +258,12 @@
         bottom: 65px;
         background-image: url('../files/mail.mobile-img.png');
     }
+
+    .contact-number:hover,
+    .contact-mail:hover {
+    text-decoration: underline solid 1px;
+    text-underline-offset: 5px;
+}
 }
 
 @media (max-width: 767px) {
@@ -453,5 +459,37 @@
         justify-content: space-between;
         gap: 0;
         height: 34px;
+    }
+
+    /* footer */
+
+    .footer-info {
+        gap: 30px;
+        padding-top: 30px;
+        padding-bottom: 41px;
+    }
+
+    .footer-us,
+    .footer-project,
+    .footer-services,
+    .footer-contact {
+    font-size: 12px;
+    line-height: 17px;
+    }
+
+    .footer-us:hover,
+    .footer-project:hover,
+    .footer-services:hover,
+    .footer-contact:hover {
+    text-underline-offset: 4px;
+    }
+
+    .footer-copyright {
+        padding-bottom: 26px;
+    }
+    
+    .footer-copyright-text {
+        font-size: 13px;
+        line-height: 18px;
     }
 }
