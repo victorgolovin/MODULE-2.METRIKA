@@ -74,7 +74,7 @@
     }
 }
 
-@media (max-width: 859px) {
+@media (max-width: 767px) {
     .contact-title {
         font-size: 14px;
         line-height: 19px;
