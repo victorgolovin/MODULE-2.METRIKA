@@ -487,48 +487,44 @@ body {
     display: flex;
     gap: 104px;
     margin-bottom: 150px;
+}
 
+.contact-number-wrapper,
+.contact-mail-wrapper {
+    position: relative;
 }
 
 .contact-number {
-    position: relative;
     display: block;
     text-decoration: none;
     color: #121212;
     font-size: 60px;
     line-height: 60px;
-    letter-spacing: -0.8px;
 }
 
-.contact-number::before {
-    content: '';
-    position: absolute;
-    bottom: 85px;
-    display: block;
-    width: 15px;
-    height: 22px;
+.contact-number-wrapper::before {
     background-image: url('../files/contact-img.png');
-    background-repeat: no-repeat;
-    background-position: 50%;
 }
 
 .contact-mail {
-    position: relative;
     font-size: 60px;
     line-height: 60px;
-    letter-spacing: -0.03em;
     color: #121212;
     text-decoration: none;
 }
 
-.contact-mail::before {
+.contact-mail-wrapper::before {
+    background-image: url('../files/mail-img.png');
+}
+
+.contact-number-wrapper::before,
+.contact-mail-wrapper::before {
     content: '';
     position: absolute;
     bottom: 85px;
     display: block;
     width: 20px;
-    height: 16px;
-    background-image: url('../files/mail-img.png');
+    height: 30px;
     background-repeat: no-repeat;
     background-position: 50%;
 }
@@ -543,8 +539,12 @@ body {
 
 /* Footer */
 
-.container-footer {
+.footer {
     background-color: #121212;
+}
+
+.container-footer {
+    
 }
 
 .footer-info {

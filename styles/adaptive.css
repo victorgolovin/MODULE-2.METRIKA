@@ -244,8 +244,8 @@
         margin-bottom: 58px;
     }
 
-    .contact-number::before {
-        bottom: 70px;
+    .contact-number-wrapper::before {
+        bottom: 125px;
         background-image: url('../files/contact-mobile-img.png');
     }
 
@@ -254,8 +254,8 @@
         line-height: 46px;
     }
 
-    .contact-mail::before {
-        bottom: 70px;
+    .contact-mail-wrapper::before {
+        bottom: 65px;
         background-image: url('../files/mail.mobile-img.png');
     }
 }
