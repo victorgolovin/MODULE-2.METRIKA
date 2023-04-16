@@ -2,6 +2,7 @@
 
 .services {
     background-color: #121212;
+    padding-bottom: 150px;
 }
 
 .services-title {
@@ -98,7 +99,6 @@
 .services-big-btn {
     display: flex;
     justify-content: center;
-    padding-bottom: 150px;
 }
 
 .services-btn {
@@ -119,6 +119,49 @@
     background-color: #fff;
     color: #AD1818;
     transition: 0.5s;
+}
+
+.services-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.services-popup-open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.services-popup-content {
+    position: relative;
+    width: 777px;
+    max-height: 100%;
+    padding: 40px;
+    overflow-y: scroll;
+    background-color: #fff;
+}
+
+.services-popup-close-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #AD1818;
+}
+
+.services-body-fixed {
+    overflow: hidden;
 }
 
 @media (max-width: 1199px) {
