@@ -113,12 +113,12 @@
     background-color: #AD1818;
     border: none;
     border-radius: 5px;
+    transition: all 0.5s ease;
 }
 
 .services-btn:hover {
     background-color: #fff;
     color: #AD1818;
-    transition: 0.5s;
 }
 
 .services-popup {
@@ -150,14 +150,53 @@
     background-color: #fff;
 }
 
+.services-popup-title {
+    padding-top: 94px;
+    font-size: 45px;
+    line-height: 62px;
+    text-align: center;
+}
+
+.services-popup-text {
+    padding-top: 4px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.services-popup-inner-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 86px;
+}
+
+.services-popup-inner-btn {
+    padding: 20px 273px 20px 273px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
+    background-color: #AD1818;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.services-popup-inner-btn:hover {
+    background-color: #fff;
+    color: #AD1818;
+    
+}
+
 .services-popup-close-btn {
     position: absolute;
-    right: 10px;
-    top: 10px;
+    right: 42px;
+    top: 44px;
     width: 30px;
     height: 30px;
     cursor: pointer;
-    background-color: #AD1818;
+    background-image: url(..//files/cancel-btn.png);
 }
 
 .services-body-fixed {

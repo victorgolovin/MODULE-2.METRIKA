@@ -57,12 +57,12 @@
     border-color: #AD1818;
     border-radius: 5px;
     border: 1px solid;
+    transition: all 0.5s ease;
 }
 
 .big-btn:hover {
     color: #fff;
     background-color: #AD1818;
-    transition: 0.5s;
 }
 
 @media (max-width: 1199px) {
