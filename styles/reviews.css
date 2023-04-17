@@ -63,7 +63,7 @@
     }
 }
 
-@media (max-width: 859px) {
+@media (max-width: 767px) {
     .reviews {
         margin-bottom: 60px;
     }

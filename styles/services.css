@@ -162,6 +162,30 @@
     font-size: 18px;
     line-height: 25px;
     text-align: center;
+    margin-bottom: 60px;
+}
+
+.services-popup-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 80px;
+}
+
+.services-popup-input {
+    box-sizing: border-box;
+    font-size: 25px;
+    line-height: 34px;
+    border: none;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.5);
+}
+
+.services-popup-input:focus {
+    outline: none;
+}
+
+.services-popup-input::placeholder {
+    opacity: 0.5;
 }
 
 .services-popup-inner-btn-wrapper {
@@ -171,7 +195,9 @@
 }
 
 .services-popup-inner-btn {
-    padding: 20px 273px 20px 273px;
+    width: 100%;
+    height: 67px;
+    gap: 20px;
     font-family: 'Manrope', sans-serif;
     font-size: 20px;
     line-height: 28px;
@@ -197,6 +223,10 @@
     height: 30px;
     cursor: pointer;
     background-image: url(..//files/cancel-btn.png);
+}
+
+.services-popup-close-btn:hover {
+    opacity: 0.5;
 }
 
 .services-body-fixed {
@@ -238,10 +268,6 @@
         font-size: 25px;
         line-height: 34px;
         margin-top: 15px;
-    }
-
-    .services-big-btn {
-        padding-bottom: 120px;
     }
 
     .services-btn {
@@ -309,13 +335,55 @@
         margin-top: 10px;
     }
 
-    .services-big-btn {
-        padding-bottom: 80px;
-    }
-
     .services-btn {
         height: 100px;
         font-size: 22px;
         line-height: 30px;
+    }
+
+    .services-popup-content {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .services-popup-title {
+        padding-top: 80px;
+        font-size: 25px;
+        line-height: 34px;
+    }
+
+    .services-popup-text {
+        padding-top: 11px;
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 70px;
+    }
+
+    .services-popup-input-wrapper {
+        gap: 40px;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .services-popup-input {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .services-popup-inner-btn-wrapper {
+        padding-bottom: 80px;
+        width: 100%;
+    }
+
+    .services-popup-inner-btn {
+        width: 100%;
+    }
+
+    .services-popup-close-btn {
+        width: 18px;
+        height: 18px;
+        top: 46px;
+        right: 35px;
+        background-image: url(..//files/cancel-btn-mini.png);
     }
 }
