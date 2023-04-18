@@ -24,23 +24,42 @@
 </head>
 
 <body>
-    <!-- <header>
+    <header class="header" >
         <div class="container">
-            <nav class="nav-metrik">
-                <div class="metrik-logo">
+            <div class="header-inner">
+                <div class="header-logo">
                     <a href="https://victorgolovin.github.io/MODULE-1.METRIKA/">
                         <img class="logo-metrik" src="files/metrika-nav.png" alt="Логотип Metrika">
                     </a>
                 </div>
-                <div class="metrik-nav-link">
-                    <a class="nav-text-us" href="#about-us">О НАС</a>
-                    <a class="nav-text-project" href="#project">ПРОЕКТЫ</a>
-                    <a class="nav-text-services" href="#services">УСЛУГИ</a>
-                    <a class="nav-text-contact" href="#contact">КОНТАКТЫ</a>
-                </div>
-            </nav>
+                <nav class="nav-link-wrapper">
+                    <a class="nav-link" href="#about-us">О НАС</a>
+                    <a class="nav-link" href="#project">ПРОЕКТЫ</a>
+                    <a class="nav-link" href="#services">УСЛУГИ</a>
+                    <a class="nav-link" href="#contact">КОНТАКТЫ</a>
+                </nav>
+            </div>
+            <div class="js-burger-btn burger-btn"></div>
         </div>
-    </header> -->
+        <div class="js-burger burger">
+            <div class="js-burger-content burger-content">
+                <div class="header-burger-logo">
+                    <a href="https://victorgolovin.github.io/MODULE-1.METRIKA/">
+                        <img class="logo-metrik" src="files/metrika-nav-burger.png" alt="Логотип Metrika">
+                    </a>
+                </div>
+                <nav class="nav-link-burger-wrapper">
+                    <a class="nav-burger-link" href="#about-us">О НАС</a>
+                    <a class="nav-burger-link" href="#project">ПРОЕКТЫ</a>
+                    <a class="nav-burger-link" href="#services">УСЛУГИ</a>
+                    <a class="nav-burger-link" href="#contact">КОНТАКТЫ</a>
+                    <p class="burger-contact-text" >для связи:</p>
+                    <a class="burger-contact-number" target="_blank" href="tel:+79358954535">+7 935 895-45-35</a>
+                    <a class="burger-contact-mail" target="_blank" href="https://t.me/Golovin_V13">Golovin_V13</a>
+                </nav>
+            </div>
+        </div>
+    </header>
 
     <main>
         <section class="top-info">
@@ -318,6 +337,7 @@
         </div>
     </footer>
 
+    <script src="js/burger.js"></script>
     <script src="js/popup.js"></script>
     <script src="js/gallery.js"></script>
 </body>
