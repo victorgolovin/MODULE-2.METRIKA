@@ -38,8 +38,9 @@
                     <a class="nav-link" href="#services">УСЛУГИ</a>
                     <a class="nav-link" href="#contact">КОНТАКТЫ</a>
                 </nav>
+                <div class="js-burger-btn burger-btn"></div>
             </div>
-            <div class="js-burger-btn burger-btn"></div>
+            
         </div>
         <div class="js-burger burger">
             <div class="js-burger-content burger-content">
@@ -113,7 +114,7 @@
             </div>
             <div class="project-big-btn">
                 <div class="container">
-                    <button class="big-btn">Смотреть все проекты</button>
+                    <a class="big-btn" href="#">Смотреть все проекты</a>
                 </div>
             </div>
         </section>
@@ -163,18 +164,21 @@
                             <input
                             class="services-popup-input" 
                             type="text"
-                            placeholder="Имя" >
-
+                            name="name"
+                            placeholder="Имя" 
+                            >
                             <input
                             class="services-popup-input" 
-                            type="text"
-                            placeholder="Электронная почта" >
-
+                            type="email"
+                            name="email"
+                            placeholder="Электронная почта" 
+                            >
                             <input
                             class="services-popup-input" 
-                            type="text"
-                            placeholder="Номер телефона" >
-                            
+                            type="tel"
+                            name="phone"
+                            placeholder="Номер телефона" 
+                            >
                         </div>
                         <div class="services-popup-inner-btn-wrapper">
                             <button class="services-popup-inner-btn">Отправить</button>

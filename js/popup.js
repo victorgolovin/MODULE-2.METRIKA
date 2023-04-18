@@ -1,7 +1,7 @@
 const POPUP_OPENED_CLASSNAME = 'services-popup-open';
-const BODY_FIXED_CLASSNAME = 'services-body-fixed';
+const BODY_FIXED_CLASSNAME2 = 'services-body-fixed';
 
-const bodyNode = document.querySelector('body');
+const bodyNode2 = document.querySelector('body');
 const popupNode = document.querySelector('.js-popup');
 const btnOpenNode = document.querySelector('.js-btn');
 const popupContentNode = document.querySelector('.js-popup-content')
@@ -20,5 +20,5 @@ popupNode.addEventListener('click', (event) => {
 
 function togglePopup() {
     popupNode.classList.toggle(POPUP_OPENED_CLASSNAME);
-    bodyNode.classList.toggle(BODY_FIXED_CLASSNAME);
+    bodyNode2.classList.toggle(BODY_FIXED_CLASSNAME2);
 }

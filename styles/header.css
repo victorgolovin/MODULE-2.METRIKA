@@ -33,8 +33,13 @@
     opacity: 0.5;
 }
 
+.body-fixed {
+    overflow-y: hidden;
+}
+
 .burger-btn {
     display: none;
+    z-index: 1000;
 }
 
 .burger {
@@ -48,14 +53,21 @@
     background-color: rgba(0, 0, 0, 0.9);
     opacity: 0;
     visibility: hidden;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s linear;
+    transform: translateX(100%);
     z-index: 50;
 }
 
+.burger-content,
+.burger-open {
+    transform: translateX(0);
+}
+
 .burger-content {
-    width: 80%;
+    width: 274px;
     height: 100%;
     background-color: #fff;
+    overflow-y: auto;
 }
 
 .burger-open {
@@ -104,6 +116,10 @@
     color: #121212;
 }
 
+.burger-contact-mail {
+    margin-bottom: 65px;
+}
+
 .burger-contact-number:hover,
 .burger-contact-mail:hover {
     text-decoration: underline solid 1px;
@@ -112,27 +128,57 @@
 }
 
 @media (max-width: 1199px) {
-
     .nav-link-wrapper {
         display: none;
     }
 
     .burger-btn {
-        position: absolute;
-        right: 27px;
-        top: 27px;
         display: block;
-        width: 22px;
-        height: 22px;
+        position: relative;
+        width: 50px;
+        height: 20px;
+        background: none;
         cursor: pointer;
-        background-color: red;
-        z-index: 100;
+    }
+
+    .burger-btn::before,
+    .burger-btn::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 2px;
+        width: 100%;
+        background-color: #000000;
+    }
+
+    .burger-btn::after {
+        top: 6px;
+        width: 31px;
+    }
+
+    .burger-btn::before {
+        width: 50px;
+    }
+
+    .burger-btn:hover {
+        opacity: 0.5;
     }
 
     .burger-btn-open {
+        position: absolute;
+        top: 27px;
+        right: 27px;
         background-image: url(..//files/cancel-nav-btn.png);
+        background-repeat: no-repeat;
+        background-position: center;
         width: 22px;
         height: 22px;
         cursor: pointer;
     }
+
+}
+
+@media (max-width: 767px) {
+    
 }
