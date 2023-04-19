@@ -1,81 +1,81 @@
 /* Footer */
 
 .footer {
-    background-color: #121212;
+  background-color: #121212;
 }
 
 .container-footer {
-    width: 100%;
+  width: 100%;
 }
 
 .footer-info {
-    display: flex;
-    justify-content: center;
-    gap: 53px;
-    padding-top: 58px;
-    padding-bottom: 88px;
+  display: flex;
+  justify-content: center;
+  gap: 53px;
+  padding-top: 58px;
+  padding-bottom: 88px;
 }
 
 .footer-us,
 .footer-project,
 .footer-services,
 .footer-contact {
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
 }
 
 .footer-us:hover,
 .footer-project:hover,
 .footer-services:hover,
 .footer-contact:hover {
-    text-decoration: underline solid 1px;
-    text-underline-offset: 8px;
-    opacity: 0.5;
+  text-decoration: underline solid 1px;
+  text-underline-offset: 8px;
+  opacity: 0.5;
 }
 
 .footer-copyright {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
 }
 
 .footer-copyright-text {
-    color: #fff;
-    opacity: 0.5;
-    font-size: 20px;
-    line-height: 27px;
+  color: #fff;
+  opacity: 0.5;
+  font-size: 20px;
+  line-height: 27px;
 }
 
 @media (max-width: 767px) {
-    .footer-info {
-        gap: 30px;
-        padding-top: 30px;
-        padding-bottom: 41px;
-    }
+  .footer-info {
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 41px;
+  }
 
-    .footer-us,
-    .footer-project,
-    .footer-services,
-    .footer-contact {
-        font-size: 12px;
-        line-height: 17px;
-    }
+  .footer-us,
+  .footer-project,
+  .footer-services,
+  .footer-contact {
+    font-size: 12px;
+    line-height: 17px;
+  }
 
-    .footer-us:hover,
-    .footer-project:hover,
-    .footer-services:hover,
-    .footer-contact:hover {
-        text-underline-offset: 4px;
-    }
+  .footer-us:hover,
+  .footer-project:hover,
+  .footer-services:hover,
+  .footer-contact:hover {
+    text-underline-offset: 4px;
+  }
 
-    .footer-copyright {
-        padding-bottom: 26px;
-    }
+  .footer-copyright {
+    padding-bottom: 26px;
+  }
 
-    .footer-copyright-text {
-        font-size: 13px;
-        line-height: 18px;
-    }
+  .footer-copyright-text {
+    font-size: 13px;
+    line-height: 18px;
+  }
 }
