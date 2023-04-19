@@ -1,115 +1,115 @@
 /* contact section */
 
 .contact-title {
-    position: relative;
-    display: block;
-    font-size: 18px;
-    line-height: 25px;
-    text-transform: uppercase;
-    margin-bottom: 74px;
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin-bottom: 74px;
 }
 
 .contact-info-wrapper {
-    display: flex;
-    gap: 104px;
-    margin-bottom: 150px;
+  display: flex;
+  gap: 104px;
+  margin-bottom: 150px;
 }
 
 .contact-number-wrapper,
 .contact-mail-wrapper {
-    position: relative;
+  position: relative;
 }
 
 .contact-number {
-    display: block;
-    text-decoration: none;
-    color: #121212;
-    font-size: 60px;
-    line-height: 60px;
+  display: block;
+  text-decoration: none;
+  color: #121212;
+  font-size: 60px;
+  line-height: 60px;
 }
 
 .contact-number-wrapper::before {
-    background-image: url('../files/contact-img.png');
+  background-image: url("../files/contact-img.png");
 }
 
 .contact-mail {
-    font-size: 60px;
-    line-height: 60px;
-    color: #121212;
-    text-decoration: none;
+  font-size: 60px;
+  line-height: 60px;
+  color: #121212;
+  text-decoration: none;
 }
 
 .contact-mail-wrapper::before {
-    background-image: url('../files/mail-img.png');
+  background-image: url("../files/mail-img.png");
 }
 
 .contact-number-wrapper::before,
 .contact-mail-wrapper::before {
-    content: '';
-    position: absolute;
-    bottom: 85px;
-    display: block;
-    width: 20px;
-    height: 30px;
-    background-repeat: no-repeat;
-    background-position: 50%;
+  content: "";
+  position: absolute;
+  bottom: 85px;
+  display: block;
+  width: 20px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 
 .contact-number:hover,
 .contact-mail:hover {
-    color: #121212;
-    text-decoration: underline solid 2px;
-    text-underline-offset: 10px;
-    opacity: 0.5;
+  color: #121212;
+  text-decoration: underline solid 2px;
+  text-underline-offset: 10px;
+  opacity: 0.5;
 }
 
 @media (max-width: 1199px) {
-    .contact-info-wrapper {
-        margin-bottom: 80px;
-    }
+  .contact-info-wrapper {
+    margin-bottom: 80px;
+  }
 
-    .contact-number,
-    .contact-mail {
-        font-size: 45px;
-    }
+  .contact-number,
+  .contact-mail {
+    font-size: 45px;
+  }
 }
 
 @media (max-width: 767px) {
-    .contact-title {
-        font-size: 14px;
-        line-height: 19px;
-    }
+  .contact-title {
+    font-size: 14px;
+    line-height: 19px;
+  }
 
-    .contact-info-wrapper {
-        display: flex;
-        flex-direction: column;
-        gap: 0px;
-    }
+  .contact-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
 
-    .contact-number {
-        font-size: 35px;
-        line-height: 46px;
-        margin-bottom: 58px;
-    }
+  .contact-number {
+    font-size: 35px;
+    line-height: 46px;
+    margin-bottom: 58px;
+  }
 
-    .contact-number-wrapper::before {
-        bottom: 125px;
-        background-image: url('../files/contact-mobile-img.png');
-    }
+  .contact-number-wrapper::before {
+    bottom: 125px;
+    background-image: url("../files/contact-mobile-img.png");
+  }
 
-    .contact-mail {
-        font-size: 35px;
-        line-height: 46px;
-    }
+  .contact-mail {
+    font-size: 35px;
+    line-height: 46px;
+  }
 
-    .contact-mail-wrapper::before {
-        bottom: 65px;
-        background-image: url('../files/mail.mobile-img.png');
-    }
+  .contact-mail-wrapper::before {
+    bottom: 65px;
+    background-image: url("../files/mail.mobile-img.png");
+  }
 
-    .contact-number:hover,
-    .contact-mail:hover {
-        text-decoration: underline solid 1px;
-        text-underline-offset: 5px;
-    }
+  .contact-number:hover,
+  .contact-mail:hover {
+    text-decoration: underline solid 1px;
+    text-underline-offset: 5px;
+  }
 }
