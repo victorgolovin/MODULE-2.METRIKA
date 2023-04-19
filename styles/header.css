@@ -103,8 +103,11 @@
   opacity: 0.5;
 }
 
+.burger-contant {
+  margin-left: 33px;
+}
+
 .burger-contact-text {
-  margin-top: 300px;
   font-size: 16px;
   line-height: 22px;
   opacity: 0.5;
@@ -116,10 +119,6 @@
   line-height: 45px;
   text-decoration: none;
   color: #121212;
-}
-
-.burger-contact-mail {
-  margin-bottom: 65px;
 }
 
 .burger-contact-number:hover,
