@@ -1,7 +1,7 @@
 /* reviews section */
 
 .reviews {
-    margin-bottom: 137px;
+    margin-bottom: 130px;
 }
 
 .reviews-title {
@@ -22,7 +22,7 @@
 .reviews-list>li:nth-child(1),
 .reviews-list>li:nth-child(2) {
     width: calc(50% - 25px);
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .reviews-list>li:nth-child(3) {
@@ -38,7 +38,7 @@
 .reviews-list-text {
     font-size: 22px;
     line-height: 30.05px;
-    margin-bottom: 20px;
+    margin-bottom: 29px;
 }
 
 @media (max-width: 1199px) {
